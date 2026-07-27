@@ -1,9 +1,28 @@
 aid: gilion-formerly-ark
 name: Gilion (formerly ArK)
-description: 'Gilion (formerly ArK) is a company surfaced as a portfolio company of creandum and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Gilion (formerly ArK) is an AI-powered financial platform, headquartered
+  in Stockholm, that sits between founders and investors to streamline how growth
+  capital is allocated. For companies it offers non-dilutive growth funding for SaaS
+  and technology businesses, including a Growth Loan and Seasonal Credit, underwritten
+  by AI models of a company''s trajectory. For banks, funds, and investors it offers
+  an agentic-AI investment platform covering sourcing, due diligence, monitoring, and
+  portfolio reporting. Gilion was rebranded from ArK and is backed by Creandum. The
+  company publishes a public Trust Center (SOC 2 Type 2, CSA STAR, GDPR/CCPA/CPRA)
+  but does not currently expose a public developer API; this profile tracks its
+  security, compliance, and web presence in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/gilion-formerly-ark/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/62T62jjetbr3liDfxk2EGXs8ct0.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Financial Services
+- Growth Financing
+- Venture Debt
+- Artificial Intelligence
+- Investment
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.gilion.com/
+- type: Blog
+  url: https://www.gilion.com/blog
+- type: SignUp
+  url: https://www.gilion.com/talk
+- type: Login
+  url: https://app.gilion.com/login
+- type: TermsOfService
+  url: https://www.gilion.com/terms/en-global-terms
+- type: PrivacyPolicy
+  url: https://www.gilion.com/privacy
+- type: TrustCenter
+  url: security/gilion-formerly-ark-trust-center.yml
+- type: Compliance
+  url: https://trust.gilion.com/
+- type: DomainSecurity
+  url: security/gilion-formerly-ark-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.gilion.com/
+url: https://trust.gilion.com/
+certifications:
+- SOC 2 Type 2
+- SOC 2 Type 1
+- CSA STAR
+- GDPR
+- CCPA
+- CPRA
+soc2:
+  type2_observation_period: 2025-04-01 to 2026-03-31
+subprocessors:
+- Fivetran
+- Google Cloud
+security_contact: security@gilion.com
+documents:
+- Pentest Report
+- SOC 2 compliance documentation
+- CAIQ and CAIQ Lite self-assessments
+- Product Architecture
+- Key Controls Standard
+- Security Policy
+- Data Processing Agreement
+- Cyber Insurance documentation
+security_grades:
+- immuniweb: A
+- qualys_ssl_labs: A+
+- security_headers: A
+evidence:
+- source: https://trust.gilion.com/
+  keywords:
+  - soc 2 type 2
+  - soc 2 type 1
+  - csa star
+  - gdpr
+  - ccpa
+  - cpra
+  - trust center
