@@ -1,0 +1,26 @@
+# Front Door AI Index — gilion-formerly-ark — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: gilion-formerly-ark
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.gilion.com
+  final_host: www.gilion.com
+  ownership: own
+  owner: gilion-formerly-ark
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 23.53
+  words: 255
+  tiers:
+    agentic: 3
+    core: 3
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 3
+    agentic: 3
